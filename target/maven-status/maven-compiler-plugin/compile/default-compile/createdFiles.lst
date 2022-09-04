@@ -1,0 +1,8 @@
+petfriends\petfriendsAuth\model\UserRole.class
+petfriends\petfriendsAuth\security\AuthorizationServer.class
+petfriends\petfriendsAuth\converter\StringListConverter.class
+petfriends\petfriendsAuth\security\SecurityConfig.class
+petfriends\petfriendsAuth\model\UserInfo.class
+petfriends\petfriendsAuth\repository\UserInfoRepository.class
+petfriends\petfriendsAuth\service\UserInfoService.class
+petfriends\PetfriendsAuthApplication.class
