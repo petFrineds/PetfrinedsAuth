@@ -52,7 +52,7 @@ jwt:
 
 security:
   oauth2:
-    clinet:
+    client:
       client-id : petfriends
       client-secret: petfriends
     # resource:

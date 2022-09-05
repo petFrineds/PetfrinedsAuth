@@ -20,10 +20,10 @@ import java.util.Arrays;
 @EnableAuthorizationServer
 public class AuthorizationServer extends AuthorizationServerConfigurerAdapter {
 
-    @Value("${security.oauth2.clinet.client-id}")
+    @Value("${security.oauth2.client.client-id}")
     private String clientId;
 
-    @Value("${security.oauth2.clinet.client-secret}")
+    @Value("${security.oauth2.client.client-secret}")
     private String clientSecret;
 
     private int ACCESS_TOKEN_VALID_SECONDS = 10 * 60 * 24;
