@@ -1,6 +1,8 @@
 package petfriends.petfriendsAuth.security;
 
 import lombok.RequiredArgsConstructor;
+
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.crypto.password.PasswordEncoder;
@@ -18,9 +20,11 @@ import java.util.Arrays;
 @EnableAuthorizationServer
 public class AuthorizationServer extends AuthorizationServerConfigurerAdapter {
 
-    private String clientId = "CLIENT_ID";
+    @Value("${security.oauth2.clinet.client-id}")
+    private String clientId;
 
-    private String clientSecret = "CLIENT_SECRET";
+    @Value("${security.oauth2.clinet.client-secret}")
+    private String clientSecret;
 
     private int ACCESS_TOKEN_VALID_SECONDS = 10 * 60 * 24;
 
