@@ -53,7 +53,7 @@ jwt:
 security:
   oauth2:
     client:
-      client-id : petfriends
+      client-id: petfriends
       client-secret: petfriends
     # resource:
     #   token-info-uri: http://localhost:8082/oauth/check_token
@@ -108,3 +108,11 @@ logging:
 
 jwt:
   secret: bHYz66W8IOychO2VnCBwZXRmcmllbmRzIOydh
+
+security:
+  oauth2:
+    client:
+      client-id: petfriends
+      client-secret: petfriends
+    # resource:
+    #   token-info-uri: http://localhost:8082/oauth/check_token
