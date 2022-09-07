@@ -37,7 +37,7 @@ public class UserInfo {
     private Double career;
     private Double avgScore;
     private Double walkCount;
-    private Long imageId;
+    
 
 		// @Column
     // @Enumerated(EnumType.STRING)
